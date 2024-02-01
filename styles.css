@@ -10,3 +10,33 @@
     --clr-white: #fff;
   }
   
+/*  ==================
+        CSS Reset 
+    ==================  */
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset margin for the following elements */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Remove padding from lists */
+ul,
+ol {
+  padding: 0;
+}
