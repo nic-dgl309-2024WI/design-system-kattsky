@@ -25,8 +25,18 @@
     
     <!-- Top-level navbar -->
     <nav>
-        <a href="about-me.html">About Me</a>
-        <a href="#">Demo Site</a>
+        <div>        
+            <a href="about-me.html">About Me</a>
+            <a href="#">Demo Site</a>
+        </div> 
+        
+        <!-- Mobile navbar using hamburger icon
+        Below div block is sourced from https://edezekiel.medium.com/css-only-responsive-navigation-menu-c36ad02751e8
+        to try using responsive menu without JS -->
+        <div>
+            <input type="checkbox" id="toggle-menu">
+            <label for="menu-toggle">&#9776;</label>
+        </div>
     </nav>  
   </header>
 
