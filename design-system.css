@@ -1,4 +1,4 @@
-/* HEADER SECTION */
+/* ================= HEADER SECTION =================*/
 
 /* Distribute page title and hamburger toggle icon in row flexflow with equal space between */
 .top-nav {
@@ -23,6 +23,8 @@
     top: 11px;
     right: 13px;
 }
+
+/* ================= SIDEBAR SECTION ================= */
 
 /* Display .sidebar__menu when mobile-toggle checkbox is checked 
 Code sourced from https://codepen.io/nobukawa/pen/WvJQwv?editors=1100 
