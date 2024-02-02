@@ -24,7 +24,9 @@
     right: 13px;
 }
 
+/* Display .sidebar__menu when mobile-toggle checkbox is checked 
+Code sourced from https://codepen.io/nobukawa/pen/WvJQwv?editors=1100 
+Replaced + with tilde to select all sibling elements */
 .sidebar__mobile-toggle:checked ~ .sidebar__menu {
     display: block;
   }
-
