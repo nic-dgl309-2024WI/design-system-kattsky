@@ -36,3 +36,8 @@ Replaced + with tilde to select all sibling elements */
     text-decoration: none;
     color: var(--clr-primary);
 }
+
+/* Gray color for links in hover state */
+.sidebar__list-item--hover:hover {
+    color: var(--clr-secondary);
+}
