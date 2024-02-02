@@ -34,18 +34,21 @@ Replaced + with tilde to select all sibling elements */
   }
 
 /* Links without underline */
-.sidebar__list-item--no-decoration {
+.sidebar__list-item--no-decoration,
+.top-nav__link-items--no-decoration {
     text-decoration: none;
     color: var(--clr-primary);
 }
 
 /* Gray color for links in hover state */
-.sidebar__list-item--hover:hover {
+.sidebar__list-item--hover:hover,
+.top-nav__link-items--hover:hover {
     color: var(--clr-secondary);
 }
 
 /* Link style for focused active state */
-.sidebar__list-item--active:focus  {
+.sidebar__list-item--active:focus,
+.top-nav__link-items--active:focus  {
     color: var(--clr-primary);
     font-weight: 800;
 }
