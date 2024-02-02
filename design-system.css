@@ -10,12 +10,17 @@
 
 /* Hide navigational links and toggle switch element in mobile view*/
 .top-nav__links,
-.side-menu,
-.mobile-nav__toggle {
+.sidebar__menu,
+.sidebar__mobile-toggle {
     display: none;
 }
 
-/* Display  hamburger icon icon in smaller screens*/
-.mobile-nav {
+/* Display  hamburger icon in smaller screens*/
+.sidebar__mobile-toggle-icon {
     font-size: 2rem;
 }
+
+.sidebar__mobile-toggle:checked ~ .sidebar__menu {
+    display: block;
+  }
+
