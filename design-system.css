@@ -41,3 +41,9 @@ Replaced + with tilde to select all sibling elements */
 .sidebar__list-item--hover:hover {
     color: var(--clr-secondary);
 }
+
+/* Link style for focused active state */
+.sidebar__list-item--active:focus  {
+    color: var(--clr-primary);
+    font-weight: 800;
+}
