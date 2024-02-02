@@ -18,6 +18,10 @@
 /* Display  hamburger icon in smaller screens*/
 .sidebar__mobile-toggle-icon {
     font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    right: 13px;
 }
 
 .sidebar__mobile-toggle:checked ~ .sidebar__menu {
