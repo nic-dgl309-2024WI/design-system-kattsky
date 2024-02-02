@@ -49,3 +49,20 @@ Replaced + with tilde to select all sibling elements */
     color: var(--clr-primary);
     font-weight: 800;
 }
+
+
+/* Large devices (desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+/* ================= HEADER SECTION =================*/
+/* Hide hamburger icon when viewport width reaches 1200 pixels and wider */
+.sidebar__mobile-toggle-icon {
+    display: none;
+}
+
+/* Display all links both top-level and sidebar menu for larger screens */
+.top-nav__links,
+.sidebar__menu {
+    display: block;
+}
+}
