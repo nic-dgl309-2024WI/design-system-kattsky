@@ -30,3 +30,9 @@ Replaced + with tilde to select all sibling elements */
 .sidebar__mobile-toggle:checked ~ .sidebar__menu {
     display: block;
   }
+
+/* Links without underline */
+.sidebar__list-item--no-decoration {
+    text-decoration: none;
+    color: var(--clr-primary);
+}
