@@ -13,11 +13,14 @@
 
   /* Secondary color */
     --clr-secondary-font-color: #475C6C; /* Very dark grayish blue */
-    --clr-secondary-bgcolor: #F9F9F9; /* Very light gray */
-
+    --clr-secondary-bgcolor-gray: #F9F9F9; /* Very light gray */
+    --clr-secondary-bgcolor-blue:  #01364A; /* Very dark blue */
+  
   /* Tonal variation */
   --clr-primary-font-color-100: #e8f9ff; /* Very pale blue */
+
   }
+
   
 /*  ==================
         CSS Reset 
