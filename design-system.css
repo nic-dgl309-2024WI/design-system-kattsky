@@ -1,7 +1,7 @@
 /* ================= HEADER SECTION =================*/
 
 /* Distribute page title and hamburger toggle icon in row flexflow with equal space between */
-.top-nav {
+.l-flex-between {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,14 +9,12 @@
 }
 
 /* Hide navigational links and toggle switch element in mobile view*/
-.top-nav__links,
-.sidebar__menu,
-.sidebar__mobile-toggle {
+.is-mobile-hidden {
     display: none;
 }
 
 /* Display  hamburger icon in smaller screens*/
-.sidebar__mobile-toggle-icon {
+.c-sidebar__mobile-toggle-icon {
     font-size: 2rem;
     cursor: pointer;
     position: absolute;
@@ -29,28 +27,31 @@
 /* Display .sidebar__menu when mobile-toggle checkbox is checked 
 Code sourced from https://codepen.io/nobukawa/pen/WvJQwv?editors=1100 
 Replaced + with tilde to select all sibling elements */
-.sidebar__mobile-toggle:checked ~ .sidebar__menu {
+.c-sidebar__mobile-toggle:checked ~ .c-sidebar__menu {
     display: block;
   }
 
 /* Links without underline */
-.sidebar__list-item--no-decoration,
-.top-nav__link-items--no-decoration {
+.c-sidebar__list-item--no-decoration,
+.c-top-nav__link-items--no-decoration {
     text-decoration: none;
-    color: var(--clr-primary);
+    color: var(--clr-primary-font-color);
 }
 
 /* Gray color for links in hover state */
-.sidebar__list-item--hover:hover,
-.top-nav__link-items--hover:hover {
-    color: var(--clr-secondary);
+.c-sidebar__list-item--hover:hover,
+.c-top-nav__link-items--hover:hover {
+    color: var(--clr-primary-accent-bgcolor);
 }
 
 /* Link style for focused active state */
-.sidebar__list-item--active:focus,
-.top-nav__link-items--active:focus  {
-    color: var(--clr-primary);
+.c-sidebar__list-item--active:focus,
+.c-top-nav__link-items--active:focus  {
+    color: var(--clr-primary-accent-bgcolor);
     font-weight: 800;
+    font-size: 20px; 
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);   
 }
 
 
@@ -59,13 +60,12 @@ Replaced + with tilde to select all sibling elements */
 
 /* ================= HEADER SECTION =================*/
 /* Hide hamburger icon when viewport width reaches 1200 pixels and wider */
-.sidebar__mobile-toggle-icon {
+.is-desktop-hidden {
     display: none;
 }
 
 /* Display all links both top-level and sidebar menu for larger screens */
-.top-nav__links,
-.sidebar__menu {
+.is-desktop-visible {
     display: block;
 }
 }
