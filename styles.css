@@ -77,8 +77,12 @@ ol {
   color: var(--clr-secondary-font-color);
 }
 
-.u-secondary-bgcolor {
-  background-color: var(--clr-secondary-bgcolor);
+.u-secondary-bgcolor-gray {
+  background-color: var(--clr-secondary-bgcolor-gray);
+}
+
+.u-secondary-bgcolor-blue {
+  background-color: var(--clr-secondary-bgcolor-blue);
 }
 
 .u-text-on-blue {
