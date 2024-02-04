@@ -49,3 +49,35 @@ ul,
 ol {
   padding: 0;
 }
+
+/*  ==================
+      Utility Classes 
+    ==================  */
+
+.u-primary-font {
+  color: var(--clr-primary-font-color);
+}
+
+.u-primary-bgcolor {
+  background-color: var(--clr-primary-bgcolor);
+}
+
+.u-primary-cta-bgcolor {
+  background-color: var(--clr-primary-accent-bgcolor);
+}
+
+.u-primary-cta-font {
+  color: var(--clr-primary-accent-font);
+}
+
+.u-secondary-font {
+  color: var(--clr-secondary-font-color);
+}
+
+.u-secondary-bgcolor {
+  background-color: var(--clr-secondary-bgcolor);
+}
+
+.u-text-on-blue {
+  color: var(--clr-primary-font-color-100);
+}
