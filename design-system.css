@@ -54,6 +54,7 @@ Replaced + with tilde to select all sibling elements */
     transform: scale(1.1);   
 }
 
+/* Style for table swatches */
 .c-swatch__table--size {
     margin-top: 10px;
     width: 300px;
