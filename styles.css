@@ -96,3 +96,7 @@ ol {
 .u-text-on-blue {
   color: var(--clr-primary-font-color-100);
 }
+
+.u-blue-text-swatch {
+  background-color: var(--clr-primary-font-color-100);
+}
