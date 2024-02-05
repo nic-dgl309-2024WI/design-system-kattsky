@@ -77,6 +77,10 @@ ol {
   color: var(--clr-secondary-font-color);
 }
 
+.u-secondary-font-swatch {
+  background-color: var(--clr-secondary-font-color);
+}
+
 .u-secondary-bgcolor-gray {
   background-color: var(--clr-secondary-bgcolor-gray);
 }
