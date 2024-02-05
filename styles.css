@@ -73,6 +73,10 @@ ol {
   color: var(--clr-primary-accent-font);
 }
 
+.u-accent-swatch {
+  background-color: #fff;
+}
+
 .u-secondary-font {
   color: var(--clr-secondary-font-color);
 }
