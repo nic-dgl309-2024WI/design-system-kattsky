@@ -54,6 +54,12 @@ Replaced + with tilde to select all sibling elements */
     transform: scale(1.1);   
 }
 
+.c-swatch__table--size {
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 5px 5px 0 0;
+    padding: 4px;
+}
 
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
