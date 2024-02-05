@@ -55,7 +55,7 @@ Replaced + with tilde to select all sibling elements */
 }
 
 .c-swatch__table--size {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 300px;
     border-radius: 5px 5px 0 0;
     padding: 4px;
