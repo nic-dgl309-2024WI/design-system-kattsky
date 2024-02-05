@@ -61,6 +61,10 @@ Replaced + with tilde to select all sibling elements */
     padding: 4px;
 }
 
+.c-swatch__table--border {
+    border: 1px solid lightgray;
+}
+
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
