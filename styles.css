@@ -19,9 +19,28 @@
   /* Tonal variation */
   --clr-primary-font-color-100: #e8f9ff; /* Very pale blue */
 
-  }
+  /* Font family */
+  --ff-sans-serif: "Montserrat", sans-serif;
 
+  /* Font weight */
+  --fw-300-light: 300;
+  --fw-400-reg: 400;
+  --fw-500-med: 500;
+  --fw-600-semibold: 600;
+  --fw-700-bold: 700;
+  --fw-800-exrabold: 800;
+  --fw-900-black: 900;
   
+  /* Font sizes */
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.5rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.5rem;
+  --fs-800: 2rem;
+  --fs-900: 2.25rem;
+  }
+    
 /*  ==================
         CSS Reset 
     ==================  */
