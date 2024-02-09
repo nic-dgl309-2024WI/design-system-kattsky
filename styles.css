@@ -123,7 +123,7 @@ ol {
 }
 
 /* Typography */
-.u-ff-sans-serif { font-family: var(--sans-serif); }
+.u-ff-sans-serif { font-family: var(--ff-sans-serif); }
 
 .u-fs-300 { font-size: var(--fs-300); } 
 .u-fs-400 { font-size: var(--fs-400); } 
