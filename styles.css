@@ -40,7 +40,7 @@
   --fs-800: 2rem;
   --fs-900: 2.25rem;
   }
-    
+
 /*  ==================
         CSS Reset 
     ==================  */
@@ -76,6 +76,8 @@ ol {
       Utility Classes 
     ==================  */
 
+
+/* Colors */
 .u-primary-font {
   color: var(--clr-primary-font-color);
 }
@@ -119,3 +121,6 @@ ol {
 .u-blue-text-swatch {
   background-color: var(--clr-primary-font-color-100);
 }
+
+/* Typography */
+
