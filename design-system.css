@@ -67,6 +67,19 @@ Replaced + with tilde to select all sibling elements */
     border: 1px solid lightgray;
 }
 
+/* Typography page */
+
+.c-typeface__preview--display { 
+    --type-bgcolor: #fff;
+    background-color: var(--type-bgcolor);
+    font-size: var(--fs-600);
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid grey;
+
+}
+
+
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
