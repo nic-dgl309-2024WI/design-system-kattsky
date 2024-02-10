@@ -148,7 +148,7 @@ ol {
 
 .u-h1 {	
   font-size: var(--fs-900);
-  font-weight: var(--fw-900-black);
+  font-weight: var(--fw-800-exrabold);
   color: var(--clr-primary-font-color);
   }
   
@@ -196,19 +196,19 @@ ol {
 
 .u-body {
   font-size: var(--fs-400);
-  font-weight: var(--fw-500-med);
+  font-weight: var(--fw-400-reg);
   color: var(--clr-primary-font-color);
   }
 
 .u-caption {
     font-size: var(--fs-300);
-    font-weight: var(--fw-500-med);
+    font-weight: var(--fw-300-light);
     color: var(--clr-primary-font-color);
     }
   
 .u-navlinks { 
   font-size: var(--fs-400);
-  font-weight: var(--fw-500-med);
+  font-weight: var(--fw-400-reg);
   color: var(--clr-primary-font-color);
   letter-spacing: 0.35px;
   }
