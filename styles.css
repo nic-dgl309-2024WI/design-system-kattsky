@@ -153,6 +153,7 @@ ol {
 .u-h1 {	
   font-size: var(--fs-h1);
   font-weight: var(--fw-800-exrabold);
+  letter-spacing: 0.8px;
   }
   
 .u-h2 {
@@ -194,6 +195,7 @@ ol {
 .u-body {
   font-size: var(--fs-body);
   font-weight: var(--fw-400-reg);
+  letter-spacing: 0.48px;
   }
 
 .u-caption {
