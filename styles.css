@@ -145,6 +145,7 @@ ol {
 .u-letter-spacing-subheading { letter-spacing: 0.64px; }
 .u-letter-spacing-body { letter-spacing: 0.64px; }
 .u-letter-spacing-caption { letter-spacing: 0.35px; }
+.u-letter-spacing-typeface { letter-spacing: 2.5px; }
 
 .u-h1 {	
   font-size: var(--fs-900);
