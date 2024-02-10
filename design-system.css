@@ -48,8 +48,8 @@ Replaced + with tilde to select all sibling elements */
 .c-sidebar__list-item--active:focus,
 .c-top-nav__link-items--active:focus  {
     color: var(--clr-primary-accent-bgcolor);
-    font-weight: 800;
-    font-size: 20px; 
+    font-size: var(--fs-500); 
+    font-weight: var(--fw-800-exrabold);
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);   
 }
