@@ -144,7 +144,7 @@ ol {
 .u-letter-spacing-heading { letter-spacing: 0.8px; }
 .u-letter-spacing-subheading { letter-spacing: 0.64px; }
 .u-letter-spacing-body { letter-spacing: 0.64px; }
-.u-letter-spacing-caption { letter-spacing: 0.48px; }
+.u-letter-spacing-caption { letter-spacing: 0.35px; }
 
 .u-h1 {	
   font-size: var(--fs-900);
@@ -210,7 +210,7 @@ ol {
   font-size: var(--fs-400);
   font-weight: var(--fw-500-med);
   color: var(--clr-primary-font-color);
-  letter-spacing: 0.48px;
+  letter-spacing: 0.35px;
   }
   
 .u-uppercase { text-transform: uppercase; }
