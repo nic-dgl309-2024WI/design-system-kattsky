@@ -33,9 +33,9 @@
 
   /* Font weight italics */
   --fw-300-italic-light: 300;
-  --fw-400-italic-reg: 300;
-  --fw-500-italic-med: 300;
-  --fw-600-italic-semibold: 300;
+  --fw-400-italic-reg: 400;
+  --fw-500-italic-med: 500;
+  --fw-600-italic-semibold: 600;
   
   /* Font sizes */
   --fs-button: 0.875rem;
@@ -153,10 +153,22 @@ ol {
 .u-fw-extrabold { font-weight: var(--fw-800-exrabold); }
 .u-fw-black { font-weight: var(--fw-900-black); }
 
-.u-fw-italic-light { font-weight: var(--fw-300-italic-light); }
-.u-fw-italic-reg { font-weight: var(--fw-400-italic-reg); }
-.u-fw-italic-med { font-weight: var(--fw-500-italic-med); }
-.u-fw-italic-semibold { font-weight: var(--fw-600-italic-semibold); }
+.u-fw-italic-light { 
+  font-weight: var(--fw-300-italic-light); 
+  font-style: italic;
+}
+.u-fw-italic-reg { 
+  font-weight: var(--fw-400-italic-reg); 
+  font-style: italic;
+}
+.u-fw-italic-med { 
+  font-weight: var(--fw-500-italic-med); 
+  font-style: italic;
+}
+.u-fw-italic-semibold { 
+  font-weight: var(--fw-600-italic-semibold); 
+  font-style: italic;
+}
 
 .u-letter-spacing-heading { letter-spacing: 0.8px; }
 .u-letter-spacing-subheading { letter-spacing: 0.64px; }
