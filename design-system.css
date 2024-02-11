@@ -72,7 +72,7 @@ Replaced + with tilde to select all sibling elements */
 .c-typeface__preview--display { 
     --type-bgcolor: #fff;
     background-color: var(--type-bgcolor);
-    font-size: var(--fs-600);
+    font-size: var(--fs-subheading);
     padding: 15px;
     margin: 15px;
     border: 1px solid grey;
