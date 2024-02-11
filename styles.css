@@ -153,6 +153,11 @@ ol {
 .u-fw-extrabold { font-weight: var(--fw-800-exrabold); }
 .u-fw-black { font-weight: var(--fw-900-black); }
 
+.u-fw-italic-light { font-weight: var(--fw-300-italic-light); }
+.u-fw-italic-reg { font-weight: var(--fw-400-italic-reg); }
+.u-fw-italic-med { font-weight: var(--fw-500-italic-med); }
+.u-fw-italic-semibold { font-weight: var(--fw-600-italic-semibold); }
+
 .u-letter-spacing-heading { letter-spacing: 0.8px; }
 .u-letter-spacing-subheading { letter-spacing: 0.64px; }
 .u-letter-spacing-body { letter-spacing: 0.64px; }
