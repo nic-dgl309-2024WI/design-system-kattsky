@@ -69,7 +69,9 @@ Replaced + with tilde to select all sibling elements */
 
 /* Typography page */
 
-.c-typeface__preview--display { 
+.c-typeface__table--display,
+.c-scaling__table--display,
+.c-type-weights__preview--display { 
     --type-bgcolor: #fff;
     background-color: var(--type-bgcolor);
     font-size: var(--fs-subheading);
