@@ -30,6 +30,12 @@
   --fw-700-bold: 700;
   --fw-800-exrabold: 800;
   --fw-900-black: 900;
+
+  /* Font weight italics */
+  --fw-300-italic-light: 300;
+  --fw-400-italic-reg: 300;
+  --fw-500-italic-med: 300;
+  --fw-600-italic-semibold: 300;
   
   /* Font sizes */
   --fs-button: 0.875rem;
