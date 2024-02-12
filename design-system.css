@@ -33,7 +33,56 @@ Replaced + with tilde to select all sibling elements */
     display: block;
   }
 
-  
+/* Lines 40-84 code is sourced from https://codepen.io/andreykrokhin/pen/mGEqja */
+/* Apply transformations to the hamburger icon (using span element) when clicked (checked).
+   At the end of the animation the icon will resemble a close (X) button.
+*/
+.c-sidebar__mobile-toggle:checked ~ .c-sidebar__mobile-toggle-icon > .c-sidebar__mobile-toggle-icon--transform {
+    transform: rotate(45deg);
+
+  }
+.c-sidebar__mobile-toggle:checked ~ .c-sidebar__mobile-toggle-icon > .c-sidebar__mobile-toggle-icon--transform:before {
+    top: 0;
+    transform: rotate(0);
+  }
+.c-sidebar__mobile-toggle:checked ~ .c-sidebar__mobile-toggle-icon > .c-sidebar__mobile-toggle-icon--transform::after  {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+/* 
+   Define styling for the hamburger transformation elements.
+   These elements are used to create animation effects.
+*/
+
+.c-sidebar__mobile-toggle-icon--transform,
+.c-sidebar__mobile-toggle-icon--transform::before,
+.c-sidebar__mobile-toggle-icon--transform::after {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #616161;
+
+  transition-duration: .25s;
+}
+
+/* 
+   Define pseudo-elements before and after harmburger transformation for styling.
+   These pseudo-elements are positioned to create additional graphical elements for the overall appearance of the hamburger icon.
+   Using the top property to position two horizontal lines (that forms the close [X] icon when transformed) relative to the main icon to ensure it is aligned.
+*/
+.c-sidebar__mobile-toggle-icon--transform::before {
+  content: '';
+  top: -8px;
+}
+.c-sidebar__mobile-toggle-icon--transform::after {
+  content: '';
+  top: 8px;
+}
+
 /* Links without underline */
 .c-sidebar__list-item--no-decoration,
 .c-top-nav__link-items--no-decoration {
