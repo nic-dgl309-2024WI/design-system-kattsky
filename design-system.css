@@ -64,7 +64,8 @@ Replaced + with tilde to select all sibling elements */
   width: 100%;
   height: 2px;
 
-  background-color: #616161;
+  --icon-bgcolor: #01364A;
+  background-color: var(--icon-bgcolor);
 
   transition-duration: .25s;
 }
