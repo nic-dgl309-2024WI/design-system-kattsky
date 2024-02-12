@@ -15,11 +15,13 @@
 
 /* Display  hamburger icon in smaller screens*/
 .c-sidebar__mobile-toggle-icon {
-    font-size: 2rem;
+    top: 30px;
+    right: 15px;
     cursor: pointer;
     position: absolute;
-    top: 11px;
-    right: 13px;
+    width: 26px;
+    height: 26px;
+    z-index: 1;
 }
 
 /* ================= SIDEBAR SECTION ================= */
@@ -31,6 +33,7 @@ Replaced + with tilde to select all sibling elements */
     display: block;
   }
 
+  
 /* Links without underline */
 .c-sidebar__list-item--no-decoration,
 .c-top-nav__link-items--no-decoration {
