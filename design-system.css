@@ -86,7 +86,8 @@ Replaced + with tilde to select all sibling elements */
 
 /* Links without underline */
 .c-sidebar__list-item--no-decoration,
-.c-top-nav__link-items--no-decoration {
+.c-top-nav__link-items--no-decoration,
+.c-typeface__reference {
     text-decoration: none;
     color: var(--clr-primary-font-color);
 }
