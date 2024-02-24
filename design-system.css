@@ -87,7 +87,8 @@ Replaced + with tilde to select all sibling elements */
 
 /* Gray color for links in hover state */
 .c-sidebar__list-item--hover:hover,
-.c-top-nav__link-items--hover:hover {
+.c-top-nav__link-items--hover:hover,
+.c-top-nav__heading-link--hover:hover {
     color: var(--clr-primary-accent-bgcolor);
 }
 
