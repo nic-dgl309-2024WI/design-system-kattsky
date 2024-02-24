@@ -95,7 +95,8 @@ Replaced + with tilde to select all sibling elements */
 /* Link style for focused active state */
 .c-sidebar__list-item--active:focus,
 .c-top-nav__link-items--active:focus,
-.c-sidebar__list-item--current {
+.c-sidebar__list-item--current,
+.c-top-nav__heading-link--current{
     color: var(--clr-primary-accent-bgcolor);
     font-size: var(--fs-500); 
     font-weight: var(--fw-800-exrabold);
