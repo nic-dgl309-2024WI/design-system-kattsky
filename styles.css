@@ -13,7 +13,7 @@
 
   /* Secondary color */
     --clr-secondary-font-color: #475C6C; /* Very dark grayish blue */
-    --clr-secondary-bgcolor-gray: #F9F9F9; /* Very light gray */
+    --clr-secondary-bgcolor-smoke: #F9F9F9; /* Very light gray */
     --clr-secondary-bgcolor-blue:  #01364A; /* Very dark blue */
   
   /* Tonal variation */
@@ -119,8 +119,8 @@ ol {
   background-color: var(--clr-secondary-font-color);
 }
 
-.u-secondary-bgcolor-gray {
-  background-color: var(--clr-secondary-bgcolor-gray);
+.u-secondary-bgcolor-smoke {
+  background-color: var(--clr-secondary-bgcolor-smoke);
 }
 
 .u-secondary-bgcolor-blue {
