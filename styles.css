@@ -6,18 +6,18 @@
   /* Color description from https://www.colorhexa.com/ */
 
   /* Primary color */
-    --clr-primary-font-color: #01364A; /* Very dark blue */
-    --clr-primary-bgcolor: #F8FEFA; /* Light grayish cyan - lime green */
-    --clr-primary-accent-bgcolor:  #219d3d; /* Dark lime green */
+    --clr-primary-font-color: #01364A; /* Prussian blue */
+    --clr-primary-bgcolor: #F8FEFA; /* Feta */
+    --clr-primary-accent-bgcolor:  #219d3d; /* Forest Green */
     --clr-primary-accent-font: #fff; /* White */
 
   /* Secondary color */
-    --clr-secondary-font-color: #475C6C; /* Very dark grayish blue */
-    --clr-secondary-bgcolor-smoke: #F9F9F9; /* Very light gray */
-    --clr-secondary-bgcolor-blue:  #01364A; /* Very dark blue */
+    --clr-secondary-font-color: #475C6C; /* Fiord */
+    --clr-secondary-bgcolor-smoke: #F9F9F9; /* White smoke */
+    --clr-secondary-bgcolor-blue:  #01364A; /* Prussian blue */
   
   /* Tonal variation */
-  --clr-primary-font-color-100: #e8f9ff; /* Very pale blue */
+  --clr-primary-font-color-100: #e8f9ff; /* Alice blue */
 
   /* Font family */
   --ff-sans-serif: "Montserrat", sans-serif;
