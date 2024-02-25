@@ -91,6 +91,10 @@ ol {
   color: var(--clr-primary-font-color);
 }
 
+.u-primary-font-swatch {
+  background-color: var(--clr-primary-font-color);
+}
+
 .u-primary-bgcolor {
   background-color: var(--clr-primary-bgcolor);
 }
