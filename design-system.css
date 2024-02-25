@@ -121,10 +121,6 @@ Replaced + with tilde to select all sibling elements */
     padding: 4px;
 }
 
-/* .c-swatch__table--border {
-    border: 1px solid lightgray;
-} */
-
 /* Circular color swatch display */
 .c-swatch__color-display {
     width: 50px;
