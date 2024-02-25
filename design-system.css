@@ -104,15 +104,36 @@ Replaced + with tilde to select all sibling elements */
     transform: scale(1.1);   
 }
 
+
+/* ================= MAIN SECTION ================= */
+
+/* Style for swatch card holding the table contrast ratio*/
+.c-swatch__card {
+  border: lightgray 1px solid;
+  border-radius: 10px;
+  padding: 15px;
+  width: 20%;
+}
 /* Style for table swatches */
-.c-swatch__table--size {
+.c-swatch__table{
     margin-top: 10px;
     width: 300px;
-    border-radius: 5px 5px 0 0;
     padding: 4px;
 }
 
-.c-swatch__table--border {
+/* .c-swatch__table--border {
+    border: 1px solid lightgray;
+} */
+
+/* Circular color swatch display */
+.c-swatch__color-display {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Circular color swatch display with border for visibility e.g. in feta bgcolor*/
+.c-swatch__color-display--border {
     border: 1px solid lightgray;
 }
 
