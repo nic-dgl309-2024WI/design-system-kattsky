@@ -14,7 +14,7 @@
   /* Secondary color */
     --clr-secondary-font-color: #475C6C; /* Fiord */
     --clr-secondary-bgcolor-smoke: #F9F9F9; /* White smoke */
-    --clr-secondary-bgcolor-blue:  #01364A; /* Prussian blue */
+  
   
   /* Tonal variation */
   --clr-primary-font-color-100: #e8f9ff; /* Alice blue */
@@ -108,7 +108,7 @@ ol {
 }
 
 .u-accent-swatch {
-  background-color: #fff;
+  background-color: var(--clr-primary-accent-font);
 }
 
 .u-secondary-font {
@@ -124,7 +124,7 @@ ol {
 }
 
 .u-secondary-bgcolor-blue {
-  background-color: var(--clr-secondary-bgcolor-blue);
+  background-color: var(--clr-primary-font-color);
 }
 
 .u-text-on-prussian {
