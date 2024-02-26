@@ -115,7 +115,7 @@
         <p class="c-typeface__overview-text u-body">According to <a class="c-typeface__reference u-navlinks" href="https://www.nngroup.com/articles/best-font-for-online-reading/">Nielsen Norman Group</a>, Montserrat is one of the typefaces that is "designed for legibility". Plus, it gives an uncluttered feeling to a webpage.</p>
       </div>
 
-      <table class="c-typeface__table c-typeface__table--display">
+      <table class="c-typeface__table">
         <tbody class="c-typeface__table-content">
           <tr class="c-typeface__row">
             <td class="c-typeface__row-data u-fw-light u-fs-h1">Aa</td>
@@ -172,7 +172,7 @@
       <h3 class="c-scaling_heading u-primary-font u-h3">Type Scale</h3>
       <p class="c-scaling__overview-text u-body">Below outlines the specific uses of each font weight and size. Their font size in px is included with equivalent conversion in rem values.</p>
 
-      <table class="c-scaling__table c-scaling__table--display">
+      <table class="c-scaling__table">
         <tbody class="c-scaling__table-content">
           <tr class="c-scaling__row">
             <td class="c-typeface__row-data u-h1" colspan="4">Heading 1</td>
@@ -217,7 +217,7 @@
           </tr>
           <tr class="c-scaling__row">
             <td class="c-scaling__row-data u-caption">u-fw-semibold</td>
-            <td class="c-scaling__row-data u-caption"colspan="2">u-fs-h2</td>
+            <td class="c-scaling__row-data u-caption" colspan="2">u-fs-h2</td>
             <td class="c-scaling__row-data u-caption">u-letter-spacing-3</td>
           </tr>
         </tbody>
@@ -423,23 +423,69 @@
     <section class="c-type-weights u-ff-sans-serif">
       <h3 class="c-type-weights__heading u-primary-font u-h3">Type Weights</h3>
         <p class="c-type-weights__intro u-body">Font weights plays an important role in typography as it helps organise content in terms of its hierarchy and, whenever necessary, can help draw more attention to a word or phrase.</p>
-        <div class="c-type-weights__preview c-type-weights__preview--display">
-        <p class="c-type-weights__rank u-fw-black">Black (900)</p>
-        <p class="c-type-weights__rank u-fw-extrabold">Extra Bold (800)</p>
-        <p class="c-type-weights__rank u-fw-bold">Bold (700)</p>
-        <p class="c-type-weights__rank u-fw-semibold">Semi Bold (600)</p>
-        <p class="c-type-weights__rank u-fw-med">Medium (500)</p>
-        <p class="c-type-weights__rank u-fw-reg">Regular (400)</p>
-        <p class="c-type-weights__rank u-fw-light">Light (300)</p>
-      </div>
+        <div class="c-type-weights__preview">
+          <table class="c-type-weights__rank-table u-ff-sans-serif">
+            <thead class="u-subheading">
+                <tr>
+                    <td colspan="2">Font Weight</td>
+                    <td>&nbsp;</td>
+                    <td>Utility Class Name</td>
+                </tr>
+                <tr >
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+              </tr>
+            </thead>
+                <tbody>
+                  <tr >
+                      <td class="c-type-weights__rank u-fw-black" colspan="2">Black (900)</td>
+                      <td>&nbsp;</td>
+                      <td class="u-body">u-fw-black</td>
+                  </tr>
+                  <tr >
+                    <td class="c-type-weights__rank u-fw-extrabold" colspan="2">Extra Bold (800)</td>
+                    <td>&nbsp;</td>
+                    <td class="u-body">u-fw-extrabold</td>
+                </tr>
+                  <tr>
+                      <td class="c-type-weights__rank u-fw-bold" colspan="2">Bold (700)</td>     
+                      <td>&nbsp;</td>
+                      <td class="u-body">u-fw-bold</td>       
+                  </tr>
+                  <tr>
+                    <td class="c-type-weights__rank u-fw-semibold" colspan="2">Semi Bold (600)</td>     
+                    <td>&nbsp;</td>
+                    <td class="u-body">u-fw-semibold</td>       
+                </tr>
+                <tr>
+                  <td class="c-type-weights__rank u-fw-med" colspan="2">Medium (500)</td>     
+                  <td>&nbsp;</td>
+                  <td class="u-body">u-fw-med</td>       
+                </tr>
+                <tr>
+                  <td class="c-type-weights__rank u-fw-reg" colspan="2">Regular (400)</td>     
+                  <td>&nbsp;</td>
+                  <td class="u-body">u-fw-reg</td>       
+                </tr>
+                <tr>
+                  <td class="c-type-weights__rank u-fw-light" colspan="2">Light (300)</td>     
+                  <td>&nbsp;</td>
+                  <td class="u-body">u-fw-light</td>       
+                </tr>
+                </tbody>
+              </table>
+        </div>
        
-      <p class="c-type-weights_heading u-primary-font u-h5">Italics</p>
-      <p class="c-type-weights__intro u-body">Italics will be used to differentiate content especially for plant scientific names and whenever it is needed.</p>
-      <div class="c-type-weights__preview c-type-weights__preview--display">
-        <p class="c-type-weights__rank u-fw-italic-reg">Regular Italic (400)</p>
-        <p class="c-type-weights__rank u-fw-italic-med">Medium Italic (500)</p>
-        <p class="c-type-weights__rank u-fw-italic-semibold">Semi Bold Italic (600)</p>
-      </div>
+        <div>
+          <p class="c-type-weights_heading u-primary-font u-h5">Italics</p>
+          <p class="c-type-weights__intro u-body">Italics will be used to differentiate content especially for plant scientific names and whenever it is needed.</p>
+          <div class="c-type-weights__preview c-type-weights__preview--display">
+            <p class="c-type-weights__rank u-fw-italic-reg">Regular Italic (400)</p>
+            <p class="c-type-weights__rank u-fw-italic-med">Medium Italic (500)</p>
+            <p class="c-type-weights__rank u-fw-italic-semibold">Semi Bold Italic (600)</p>
+          </div>
+        </div>
     </section>
   </main>
 
