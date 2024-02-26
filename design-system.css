@@ -137,7 +137,7 @@ Replaced + with tilde to select all sibling elements */
 
 .c-typeface__table,
 .c-scaling__table,
-.c-type-weights__preview { 
+.c-type-weights__rank-table { 
     --type-bgcolor: #fff;
     background-color: var(--type-bgcolor);
     font-size: var(--fs-subheading);
