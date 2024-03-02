@@ -531,14 +531,6 @@ body {
 
 /* Container classes for layout control */
 
-/* Desktop - Constrained Container */
-.desktop-width {
-  max-width: 1024px; /* Adjust as needed */
-  /* Center container */
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Mobile Container */
 .max-width-mobile {
   max-width: 100%; /* Full width on mobile */
