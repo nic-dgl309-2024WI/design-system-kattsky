@@ -81,6 +81,11 @@ ol {
   padding: 0;
 }
 
+/* Set line-height for body text */
+body {
+  line-height: 1.5rem;
+}
+
 /*  ==================
       Utility Classes 
     ==================  */
