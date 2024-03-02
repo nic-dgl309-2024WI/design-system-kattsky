@@ -356,6 +356,37 @@ body {
   margin-bottom: 1.5rem; /* 24px */
 }
 
+/* Apply 2rem margin using below utility classes */
+.l-m-2 {
+  margin: 2rem; /* 28px */
+}
+
+.l-mt-2 {
+  margin-top: 2rem; /* 28px */
+}
+
+.l-mb-2 {
+  margin-bottom: 2rem; /* 28px */
+}
+
+.l-ml-2 {
+  margin-left: 2rem; /* 28px */
+}
+
+.l-mr-2 {
+  margin-right: 2rem; /* 28px */
+}
+
+.l-mx-2 {
+  margin-right: 2rem; /* 28px */
+  margin-left: 2rem; /* 28px */
+}
+
+.l-my-2 {
+  margin-top: 2rem; /* 28px */
+  margin-bottom: 2rem; /* 28px */
+}
+
 /* Padding */
 
 /* Apply 1rem padding using below utility classes */
