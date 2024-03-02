@@ -484,7 +484,7 @@ body {
   display: grid;
 }
 
-.l-grid-gap {
+.l-grid-gap-1 {
   gap: 1rem; /* 16px */
 }
 
@@ -495,10 +495,4 @@ body {
 .l-grid-cols-3 {
   grid-template-columns: repeat(3, 1fr);
 }
-
-
-
-
-
-
 
