@@ -541,3 +541,10 @@ body {
   width: 100%;
 }
 
+/* Flexbox ruleset: Uses a flex container with horizontal layout,
+   distributing space evenly between items */
+.l-flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
