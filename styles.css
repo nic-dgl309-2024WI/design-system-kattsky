@@ -356,6 +356,100 @@ body {
   margin-bottom: 1.5rem; /* 24px */
 }
 
+/* Padding */
+
+/* Apply 1rem padding using below utility classes */
+.l-p-1 {
+  padding: 1rem; /* 16px */
+}
+
+.l-pt-1 {
+  padding-top: 1rem; /* 16px */
+}
+
+.l-pb-1 {
+  padding-bottom: 1rem; /* 16px */
+}
+
+.l-pl-1 {
+  padding-left: 1rem; /* 16px */
+}
+
+.l-pr-1 {
+  padding-right: 1rem; /* 16px */
+}
+
+.l-px-1 {
+  padding-right: 1rem; /* 16px */
+  padding-left: 1rem; /* 16px */
+}
+
+.l-py-1 {
+  padding-top: 1rem; /* 16px */
+  padding-bottom: 1rem; /* 16px */
+}
+
+/* Apply 1.25rem padding using below utility classes */
+.l-p-1-25 {
+  padding: 1.25rem; /* 20px */
+}
+
+.l-pt-1-25 {
+  padding-top: 1.25rem; /* 20px */
+}
+
+.l-pb-1-25 {
+  padding-bottom: 1.25rem; /* 20px */
+}
+
+.l-pl-1-25 {
+  padding-left: 1.25rem; /* 20px */
+}
+
+.l-pr-1-25 {
+  padding-right: 1.25rem; /* 20px */
+}
+
+.l-px-1-25 {
+  padding-right: 1.25rem; /* 20px */
+  padding-left: 1.25rem; /* 20px */
+}
+
+.l-py-1-25 {
+  padding-top: 1.25rem; /* 20px */
+  padding-bottom: 1.25rem; /* 20px */
+}
+
+/* Apply 1.5rem padding using below utility classes */
+.l-p-1-5 {
+  padding: 1.5rem; /* 24px */
+}
+
+.l-pt-1-5 {
+  padding-top: 1.5rem; /* 24px */
+}
+
+.l-pb-1-5 {
+  padding-bottom: 1.5rem; /* 24px */
+}
+
+.l-pl-1-5 {
+  padding-left: 1.5rem; /* 24px */
+}
+
+.l-pr-1-5 {
+  padding-right: 1.5rem; /* 24px */
+}
+
+.l-px-1-5 {
+  padding-right: 1.5rem; /* 24px */
+  padding-left: 1.5rem; /* 24px */
+}
+
+.l-py-1-5 {
+  padding-top: 1.5rem; /* 24px */
+  padding-bottom: 1.5rem; /* 24px */
+}
 
 
 
