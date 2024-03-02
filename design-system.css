@@ -1,11 +1,10 @@
 /* ================= HEADER SECTION =================*/
 
 /* Distribute page title and hamburger toggle icon in row flexflow with equal space between */
-.l-flex-between {
+.c-top-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px;
 }
 
 /* Hide navigational links and toggle switch element in mobile view*/
