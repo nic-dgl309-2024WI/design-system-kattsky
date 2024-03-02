@@ -14,8 +14,8 @@
 
 /* Display  hamburger icon in smaller screens*/
 .c-sidebar__mobile-toggle-icon {
-    top: 30px;
-    right: 15px;
+    top: 1.5rem;
+    right: 1rem;
     cursor: pointer;
     position: absolute;
     width: 26px;
