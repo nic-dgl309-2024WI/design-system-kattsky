@@ -253,7 +253,7 @@ body {
 }
   
 .u-navlinks { 
-  font-size: var(--fs-400);
+  font-size: var(--fs-body);
   font-weight: var(--fw-400-reg);
   letter-spacing: 0.35px;
   text-decoration: none;
