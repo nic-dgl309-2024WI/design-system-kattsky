@@ -2,8 +2,6 @@
 
 /* ================= HEADER SECTION =================*/
 
-
-
 /* Hide navigational links and toggle switch element in mobile view*/
 .is-mobile-hidden {
     display: none;
@@ -104,6 +102,13 @@ Replaced + with tilde to select all sibling elements */
     transform: scale(1.1);   
 }
 
+/* Sidebar menu category styling */
+.c-sidebar__menu-category { 
+  font-size: var(--fs-body);
+  font-weight: var(--fw-700-bold);
+  letter-spacing: 0.35px;
+  margin-bottom: -15px;
+}
 
 /* ================= MAIN SECTION ================= */
 
@@ -170,6 +175,9 @@ Replaced + with tilde to select all sibling elements */
     display: block;
 }
 
+.u-h1 {
+  font-size: 4rem;
+}
 /* ================= BODY  =================*/
 /* Body uses grid layout to position top nav and sidebar, while
 allowing scrolling for content within main section
