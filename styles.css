@@ -245,12 +245,6 @@ body {
     letter-spacing: 1.25px;
     text-transform: uppercase;
     }
-
-.u-navlinks-category { 
-    font-size: var(--fs-body);
-    font-weight: var(--fw-700-bold);
-    letter-spacing: 0.35px;
-}
   
 .u-navlinks { 
   font-size: var(--fs-body);
