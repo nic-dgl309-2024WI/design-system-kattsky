@@ -18,6 +18,11 @@
     z-index: 1;
 }
 
+.c-top-nav__heading-link {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-800-exrabold);
+}
+
 /* ================= SIDEBAR SECTION ================= */
 
 /* Display .sidebar__menu when mobile-toggle checkbox is checked 
@@ -93,13 +98,15 @@ Replaced + with tilde to select all sibling elements */
 /* Link style for focused active state */
 .c-sidebar__list-item--active:focus,
 .c-top-nav__link-items--active:focus,
-.c-sidebar__list-item--current,
-.c-top-nav__heading-link--current{
+.c-sidebar__list-item--current {
     color: var(--clr-primary-accent-bgcolor);
-    font-size: var(--fs-500); 
+    font-size: var(--fs-body); 
     font-weight: var(--fw-800-exrabold);
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);   
+     
+}
+.c-top-nav__heading-link--current {
+  color: var(--clr-primary-accent-bgcolor);
+  font-weight: var(--fw-800-exrabold);
 }
 
 /* Sidebar menu category styling */
@@ -175,8 +182,9 @@ Replaced + with tilde to select all sibling elements */
     display: block;
 }
 
-.u-h1 {
+.c-top-nav__heading-link {
   font-size: 4rem;
+  font-weight: var(--fw-800-exrabold);
 }
 /* ================= BODY  =================*/
 /* Body uses grid layout to position top nav and sidebar, while
