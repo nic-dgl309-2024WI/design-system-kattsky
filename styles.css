@@ -498,12 +498,59 @@ body {
 
 .l-flex-center {
   justify-content: center;
-  align-items: center;
+}
+
+.l-flex--space-around {
+  justify-content: space-around;
+}
+
+.l-flex--space-evenly {
+  justify-content: space-evenly;
 }
 
 .l-flex-wrap {
   flex-wrap: wrap;
 }
+
+.l-flex-row-wrap {
+  flex-flow: row wrap;
+}
+
+.l-flex-center-items {
+  align-items: center;
+}
+
+.l-flex-start-items {
+  align-items: flex-start;
+}
+
+.l-flex-end-items {
+  align-items: flex-end;
+}
+
+.l-flex-center-content {
+  align-content: center;
+}
+
+.l-flex-start-content {
+  align-content: flex-start;
+}
+
+.l-flex-end-content {
+  align-content: flex-end;
+}
+
+.l-flex-center-self {
+  align-self: center;
+} 
+
+.l-flex-start-self {
+  align-self: flex-start;
+} 
+
+.l-flex-end-self {
+  align-self: flex-end;
+} 
 
 /* CSS Grid */
 .l-grid {
@@ -514,6 +561,10 @@ body {
   gap: 1rem; /* 16px */
 }
 
+.l-grid-gap-2 {
+  gap: 2rem; /* 32px */
+}
+
 .l-grid-cols-2 {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -522,6 +573,29 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.l-grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.l-grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.l-grid-rows-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.l-grid-rows-4 {
+  grid-template-rows: repeat(4, 1fr);
+} 
+
+.l-grid--justify-center {  
+  justify-content: center;
+}
+
+.l-grid--align-center {
+  align-items: center;
+}
 
 
 /* Container classes for layout control */
