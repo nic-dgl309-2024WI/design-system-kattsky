@@ -159,6 +159,19 @@ Replaced + with tilde to select all sibling elements */
 
 }
 
+/* Spacing page */
+
+/* Set border and center-align content in the table */
+.c-padding__table {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/* Apply background and text color to even rows in the padding table */
+.c-padding__row:nth-child(even) {
+  background-color: var(--clr-secondary-font-color);
+  color: var(  --clr-primary-font-color-100);
+}
 
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
