@@ -178,6 +178,19 @@ Replaced + with tilde to select all sibling elements */
 }
 
 
+/* ================= DEVELOPER PAGE =================*/
+
+.c-dev__heading {
+  text-align: center;
+}
+
+.c-dev__portrait {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ================= RESPONSIVE LAYOUT FOR DESKTOP =================*/
 
 /* Large devices (desktops, 1200px and up) */
