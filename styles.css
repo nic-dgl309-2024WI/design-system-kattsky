@@ -633,9 +633,11 @@ body {
 
 /* Container classes for layout control */
 
-/* Mobile Container */
+/* Mobile Container - centers container horizontally */
 .max-width-mobile {
   max-width: 100%; /* Full width on mobile */
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 /* Full Width Container */
