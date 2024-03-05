@@ -180,15 +180,24 @@ Replaced + with tilde to select all sibling elements */
 
 /* ================= DEVELOPER PAGE =================*/
 
-.c-dev__heading {
+.c-dev {
   text-align: center;
 }
 
+.c-dev__heading {
+  text-align: center;
+  line-height: 3rem;
+}
+
 .c-dev__portrait {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.c-dev__tools-skills {
+  max-width: 80%;
 }
 
 /* ================= RESPONSIVE LAYOUT FOR DESKTOP =================*/
@@ -294,4 +303,22 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
 .c-padding__table {
   width: 50vw;
 }
+
+/* ================= DEVELOPER PAGE =================*/
+c-dev__intro-box {
+ text-align: left;
+
+}
+
+.c-dev__tools-skills {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.c-dev__portrait {
+  max-width: 50%;
+  max-height: 50%;
+}
+
 }
