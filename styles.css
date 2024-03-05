@@ -353,33 +353,33 @@ body {
 
 /* Apply 2rem margin using below utility classes */
 .l-m-2 {
-  margin: 2rem; /* 28px */
+  margin: 2rem; /* 32px */
 }
 
 .l-mt-2 {
-  margin-top: 2rem; /* 28px */
+  margin-top: 2rem; /* 32px */
 }
 
 .l-mb-2 {
-  margin-bottom: 2rem; /* 28px */
+  margin-bottom: 2rem; /* 32px */
 }
 
 .l-ml-2 {
-  margin-left: 2rem; /* 28px */
+  margin-left: 2rem; /* 32px */
 }
 
 .l-mr-2 {
-  margin-right: 2rem; /* 28px */
+  margin-right: 2rem; /* 32px */
 }
 
 .l-mx-2 {
-  margin-right: 2rem; /* 28px */
-  margin-left: 2rem; /* 28px */
+  margin-right: 2rem; /* 32px */
+  margin-left: 2rem; /* 32px */
 }
 
 .l-my-2 {
-  margin-top: 2rem; /* 28px */
-  margin-bottom: 2rem; /* 28px */
+  margin-top: 2rem; /* 32px */
+  margin-bottom: 2rem; /* 32px */
 }
 
 /* Padding */
