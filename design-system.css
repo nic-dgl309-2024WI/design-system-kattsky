@@ -280,4 +280,11 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
   display: block;
 }
 
+/* ================= SPACING PAGE =================*/
+
+/* Set table width to 70% of the viewport width */
+.c-margin__table,
+.c-padding__table {
+  width: 70vw;
+}
 }
