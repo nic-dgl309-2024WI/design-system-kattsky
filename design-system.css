@@ -119,6 +119,8 @@ Replaced + with tilde to select all sibling elements */
 
 /* ================= MAIN SECTION ================= */
 
+/* ================= COLOURS PAGE =================*/
+
 /* Style for swatch card holding the table contrast ratio*/
 .c-swatch__card {
   border: lightgray 1px solid;
@@ -145,7 +147,7 @@ Replaced + with tilde to select all sibling elements */
     border: 1px solid lightgray;
 }
 
-/* Typography page */
+/* ================= TYPOGRAPHY PAGE =================*/
 
 .c-typeface__table,
 .c-scaling__table,
@@ -159,7 +161,12 @@ Replaced + with tilde to select all sibling elements */
 
 }
 
-/* Spacing page */
+.c-typeface__table {
+  display: none;
+}
+
+
+/* ================= SPACING PAGE =================*/
 
 /* Set border and center-align content in the table */
 .c-padding__table {
@@ -172,6 +179,9 @@ Replaced + with tilde to select all sibling elements */
   background-color: var(--clr-secondary-font-color);
   color: var(  --clr-primary-font-color-100);
 }
+
+
+/* ================= RESPONSIVE LAYOUT FOR DESKTOP =================*/
 
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -263,4 +273,11 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
 /* ================= COLOURS PAGE =================*/
 .c-swatch__card {
   width: 43%;
+}
+
+/* ================= TYPOGRAPHY PAGE =================*/
+.c-typeface__table {
+  display: block;
+}
+
 }
