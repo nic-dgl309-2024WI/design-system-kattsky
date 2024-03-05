@@ -660,3 +660,8 @@ body {
   max-width: 70ch;
   }
 
+/* Center content horizontally within its container */
+.center-content { 
+  margin-left: auto;  
+  margin-right: auto; 
+}
