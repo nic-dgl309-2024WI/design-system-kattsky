@@ -266,7 +266,6 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
   display: grid;
   place-content: center;
   height: 5rem;
-  border-top: 1px #475C6C solid;   /* remove border - only shown for layout purposes */
   position: relative;
   z-index: 2
 }
