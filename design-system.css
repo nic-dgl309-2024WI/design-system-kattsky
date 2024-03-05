@@ -124,7 +124,7 @@ Replaced + with tilde to select all sibling elements */
   border: lightgray 1px solid;
   border-radius: 10px;
   padding: 15px;
-  width: 25%;
+  width: 90%;
 }
 /* Style for table swatches */
 .c-swatch__table{
@@ -259,4 +259,11 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
   position: relative;
   z-index: 2
 }
+
+/* ================= COLOURS PAGE =================*/
+.c-swatch__card {
+  width: 30%;
+}
+
+.c-content-box
 }
