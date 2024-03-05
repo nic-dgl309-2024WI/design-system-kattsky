@@ -259,7 +259,6 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
 .c-content-box {
   grid-area: main;
   min-height: 180vh;
-  border: 1px #475C6C solid;   /* remove border - only shown for layout purposes */
 }
 
 .c-footer {
