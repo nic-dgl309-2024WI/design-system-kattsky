@@ -169,13 +169,15 @@ Replaced + with tilde to select all sibling elements */
 /* ================= SPACING PAGE =================*/
 
 /* Set border and center-align content in the table */
-.c-padding__table {
+.c-padding__table,
+.c-margin__table {
   border: 1px solid #000;
   text-align: center;
 }
 
 /* Apply background and text color to even rows in the padding table */
-.c-padding__row:nth-child(even) {
+.c-padding__row:nth-child(even),
+.c-margin__row:nth-child(even) {
   background-color: var(--clr-secondary-font-color);
   color: var(  --clr-primary-font-color-100);
 }
