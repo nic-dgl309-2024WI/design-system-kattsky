@@ -170,11 +170,9 @@ Replaced + with tilde to select all sibling elements */
   text-align: center;
 }
 
-/* Apply background and text color to even rows in the padding table */
-.c-padding__row:nth-child(even),
-.c-margin__row:nth-child(even) {
-  background-color: var(--clr-secondary-font-color);
-  color: var(  --clr-primary-font-color-100);
+.c-padding__row-data,
+.c-margin__row-data{
+  border: 1px solid #475C6C;
 }
 
 /* ================= CONTAINERS PAGE =================*/
