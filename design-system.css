@@ -204,16 +204,18 @@ Replaced + with tilde to select all sibling elements */
 
 /* Set border and center-align content in the table */
 .c-flex__table,
-.c-grid__table {
+.c-grid__table,
+.c-width__table {
   border: 1px solid #000;
   text-align: center;
 }
 
-/* Apply background and text color to even rows in the padding table */
-.c-flex__row:nth-child(odd),
-.c-grid__row:nth-child(odd) {
-  background-color: var(--clr-secondary-font-color);
-  color: var(  --clr-primary-font-color-100);
+
+
+.c-flex__row-data,
+.c-grid__row-data,
+.c-width__row-data {
+  border: 1px solid #475C6C;
 }
 
 
@@ -317,11 +319,18 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
 
 /* Set table width to 70% of the viewport width */
 .c-margin__table,
-.c-padding__table,
-.c-flex__table,
-.c-grid__table {
+.c-padding__table {
   width: 50vw;
 }
+
+/* ================= CONTAINERS PAGE =================*/
+
+.c-flex__table,
+.c-grid__table,
+.c-width__table {
+  width: 50vw;
+}
+
 
 /* ================= DEVELOPER PAGE =================*/
 c-dev__intro-box {
