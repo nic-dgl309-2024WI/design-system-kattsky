@@ -200,6 +200,21 @@ Replaced + with tilde to select all sibling elements */
   max-width: 80%;
 }
 
+/* ================= CONTAINERS PAGE =================*/
+
+/* Set border and center-align content in the table */
+.c-flex__table {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/* Apply background and text color to even rows in the padding table */
+.c-flex__row:nth-child(odd) {
+  background-color: var(--clr-secondary-font-color);
+  color: var(  --clr-primary-font-color-100);
+}
+
+
 /* ================= RESPONSIVE LAYOUT FOR DESKTOP =================*/
 
 /* Large devices (desktops, 1200px and up) */
@@ -300,7 +315,8 @@ Code was modified from https://github.com/nic-dgl309-2024WI/spacing-recipes*/
 
 /* Set table width to 70% of the viewport width */
 .c-margin__table,
-.c-padding__table {
+.c-padding__table,
+.c-flex__table {
   width: 50vw;
 }
 
