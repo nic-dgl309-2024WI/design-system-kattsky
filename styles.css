@@ -144,6 +144,7 @@ body {
 .u-ff-sans-serif { font-family: var(--ff-sans-serif); }
 
 .u-fs-button { font-size: var(--fs-button); } 
+.u-fs-data { font-size: var(--fs-button); } 
 .u-fs-caption { font-size: var(--fs-caption); } 
 .u-fs-body { font-size: var(--fs-body); } 
 .u-fs-subheading { font-size: var(--fs-subheading); } 
