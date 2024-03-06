@@ -533,11 +533,11 @@ body {
   justify-content: center;
 }
 
-.l-flex--space-around {
+.l-flex-space-around {
   justify-content: space-around;
 }
 
-.l-flex--space-evenly {
+.l-flex-space-evenly {
   justify-content: space-evenly;
 }
 
