@@ -177,6 +177,24 @@ Replaced + with tilde to select all sibling elements */
   color: var(  --clr-primary-font-color-100);
 }
 
+/* ================= CONTAINERS PAGE =================*/
+
+/* Set border and center-align content in the table */
+.c-flex__table,
+.c-grid__table,
+.c-width__table {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+
+
+.c-flex__row-data,
+.c-grid__row-data,
+.c-width__row-data {
+  border: 1px solid #475C6C;
+}
+
 
 /* ================= DEVELOPER PAGE =================*/
 
@@ -199,25 +217,6 @@ Replaced + with tilde to select all sibling elements */
 .c-dev__tools-skills {
   max-width: 80%;
 }
-
-/* ================= CONTAINERS PAGE =================*/
-
-/* Set border and center-align content in the table */
-.c-flex__table,
-.c-grid__table,
-.c-width__table {
-  border: 1px solid #000;
-  text-align: center;
-}
-
-
-
-.c-flex__row-data,
-.c-grid__row-data,
-.c-width__row-data {
-  border: 1px solid #475C6C;
-}
-
 
 /* ================= RESPONSIVE LAYOUT FOR DESKTOP =================*/
 
