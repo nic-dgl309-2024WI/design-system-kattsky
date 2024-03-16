@@ -319,6 +319,10 @@ Set minimum height to 180% of the viewport height */
   width: 43%;
 }
 
+.c-swatch__wrapper {
+  flex-direction: row;
+}
+
 /* ================= TYPOGRAPHY PAGE =================*/
 
 
