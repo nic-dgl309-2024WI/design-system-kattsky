@@ -330,7 +330,7 @@ Set minimum height to 180% of the viewport height */
 /* Set table width to 70% of the viewport width */
 .c-margin__table,
 .c-padding__table {
-  width: 50vw;
+  width: 85%;
 }
 
 /* ================= CONTAINERS PAGE =================*/
