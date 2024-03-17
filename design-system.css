@@ -159,18 +159,14 @@ Replaced + with tilde to select all sibling elements */
 
 /* ================= SPACING PAGE =================*/
 
-/* Set border and center-align content in the table */
+/* Style tables same as Colours page*/
 .c-padding__table,
 .c-margin__table {
-  border: 1px solid #475C6C;
-  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
 }
 
-/* Add a 1px solid border with color #475C6C to rows in the table */
-.c-padding__row-data,
-.c-margin__row-data{
-  border: 1px solid #475C6C;
-}
+
 
 /* ================= CONTAINERS PAGE =================*/
 
