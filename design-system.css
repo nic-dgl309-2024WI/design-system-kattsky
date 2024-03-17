@@ -121,6 +121,10 @@ Replaced + with tilde to select all sibling elements */
 
 /* ================= COLOURS PAGE =================*/
 
+/* Set line height to browser default */
+.c-swatch__heading {
+  line-height: normal;
+}
 /* Style for swatch card holding the table contrast ratio*/
 .c-swatch__card {
   border: lightgray 1px solid;
