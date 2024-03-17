@@ -383,6 +383,13 @@ body {
   margin-bottom: 2rem; /* 32px */
 }
 
+/* Apply 3.5rem margin using below utility classes */
+
+.l-mt-3-5 {
+  /* Specially for headings except h1 */
+  margin-top: 3.5rem; /* 56px */
+}
+
 /* Padding */
 
 /* Apply 1rem padding using below utility classes */
