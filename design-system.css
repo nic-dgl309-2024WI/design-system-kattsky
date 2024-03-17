@@ -170,23 +170,13 @@ Replaced + with tilde to select all sibling elements */
 
 /* ================= CONTAINERS PAGE =================*/
 
-/* Set border and center-align content in the table */
+/* Style tables same as Colours and Typography pages*/
 .c-flex__table,
 .c-grid__table,
 .c-width__table {
-  border: 1px solid #475C6C;
-  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
 }
-
-
-
-/* Add a 1px solid border with color #475C6C to rows in the table */
-.c-flex__row-data,
-.c-grid__row-data,
-.c-width__row-data {
-  border: 1px solid #475C6C;
-}
-
 
 /* ================= DEVELOPER PAGE =================*/
 
@@ -339,7 +329,7 @@ Set minimum height to 180% of the viewport height */
 .c-flex__table,
 .c-grid__table,
 .c-width__table {
-  width: 50vw;
+  width: 65%;
 }
 
 
