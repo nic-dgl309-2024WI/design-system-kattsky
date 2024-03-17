@@ -153,10 +153,8 @@ Replaced + with tilde to select all sibling elements */
 .c-typeface__table,
 .c-scaling__table,
 .c-type-weights__rank-table { 
-    
     border: 1px solid lightgray;
     border-radius: 10px;
-    width: 75%;
 }
 
 /* ================= SPACING PAGE =================*/
@@ -324,7 +322,12 @@ Set minimum height to 180% of the viewport height */
 
 /* ================= TYPOGRAPHY PAGE =================*/
 
-
+/* Set the width of below tables to 75% */
+.c-typeface__table,
+.c-scaling__table,
+.c-type-weights__rank-table { 
+    width: 75%;
+}
 
 /* ================= SPACING PAGE =================*/
 
