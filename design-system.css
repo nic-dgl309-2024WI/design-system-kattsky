@@ -317,6 +317,7 @@ Set minimum height to 180% of the viewport height */
 /* Set width to 43% of the parent container */
 .c-swatch__card {
   width: 43%;
+  margin-right: auto;
 }
 
 .c-swatch__wrapper {
