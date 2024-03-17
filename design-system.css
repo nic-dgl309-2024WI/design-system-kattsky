@@ -153,7 +153,7 @@ Replaced + with tilde to select all sibling elements */
 .c-typeface__table,
 .c-scaling__table,
 .c-type-weights__rank-table { 
-    margin: 1rem;
+    
     border: 1px solid lightgray;
     border-radius: 10px;
     width: 75%;
