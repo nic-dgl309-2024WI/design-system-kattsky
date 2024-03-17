@@ -181,7 +181,11 @@ Replaced + with tilde to select all sibling elements */
   border: 1px solid lightgray;
   border-radius: 10px;
 }
-
+/* Set specific width to ensure the 2 columns spread out evenly
+in the table and occupying 100% of its container*/
+.c-width__table {
+  width: 100%;
+}
 /* ================= DEVELOPER PAGE =================*/
 
 /* Center-align text within the class */
